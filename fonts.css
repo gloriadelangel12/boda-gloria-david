@@ -1,23 +1,16 @@
-/* Fuentes alojadas localmente: así el diseño se ve igual aunque no haya internet o Google Fonts tarde en cargar */
+/* Mismas fuentes y estilos que cargaba la versión original desde Google Fonts, ahora alojadas en el proyecto */
 @font-face{font-family:"Cormorant Garamond";font-style:normal;font-weight:400;font-display:swap;src:url("assets/fonts/cormorant-garamond-latin-400-normal.woff2") format("woff2")}
-@font-face{font-family:"Cormorant Garamond";font-style:italic;font-weight:400;font-display:swap;src:url("assets/fonts/cormorant-garamond-latin-400-italic.woff2") format("woff2")}
 @font-face{font-family:"Cormorant Garamond";font-style:normal;font-weight:500;font-display:swap;src:url("assets/fonts/cormorant-garamond-latin-500-normal.woff2") format("woff2")}
-@font-face{font-family:"Cormorant Garamond";font-style:italic;font-weight:500;font-display:swap;src:url("assets/fonts/cormorant-garamond-latin-500-italic.woff2") format("woff2")}
 @font-face{font-family:"Cormorant Garamond";font-style:normal;font-weight:600;font-display:swap;src:url("assets/fonts/cormorant-garamond-latin-600-normal.woff2") format("woff2")}
-@font-face{font-family:"Cormorant Garamond";font-style:italic;font-weight:600;font-display:swap;src:url("assets/fonts/cormorant-garamond-latin-600-italic.woff2") format("woff2")}
 @font-face{font-family:"Cormorant Garamond";font-style:normal;font-weight:700;font-display:swap;src:url("assets/fonts/cormorant-garamond-latin-700-normal.woff2") format("woff2")}
-@font-face{font-family:"Cormorant Garamond";font-style:italic;font-weight:700;font-display:swap;src:url("assets/fonts/cormorant-garamond-latin-700-italic.woff2") format("woff2")}
-@font-face{font-family:"Playfair Display";font-style:normal;font-weight:400;font-display:swap;src:url("assets/fonts/playfair-display-latin-400-normal.woff2") format("woff2")}
-@font-face{font-family:"Playfair Display";font-style:italic;font-weight:400;font-display:swap;src:url("assets/fonts/playfair-display-latin-400-italic.woff2") format("woff2")}
-@font-face{font-family:"Playfair Display";font-style:normal;font-weight:500;font-display:swap;src:url("assets/fonts/playfair-display-latin-500-normal.woff2") format("woff2")}
-@font-face{font-family:"Playfair Display";font-style:italic;font-weight:500;font-display:swap;src:url("assets/fonts/playfair-display-latin-500-italic.woff2") format("woff2")}
-@font-face{font-family:"Playfair Display";font-style:normal;font-weight:600;font-display:swap;src:url("assets/fonts/playfair-display-latin-600-normal.woff2") format("woff2")}
-@font-face{font-family:"Playfair Display";font-style:italic;font-weight:600;font-display:swap;src:url("assets/fonts/playfair-display-latin-600-italic.woff2") format("woff2")}
+@font-face{font-family:"Cormorant Garamond";font-style:italic;font-weight:500;font-display:swap;src:url("assets/fonts/cormorant-garamond-latin-500-italic.woff2") format("woff2")}
 @font-face{font-family:"Montserrat";font-style:normal;font-weight:400;font-display:swap;src:url("assets/fonts/montserrat-latin-400-normal.woff2") format("woff2")}
-@font-face{font-family:"Montserrat";font-style:italic;font-weight:400;font-display:swap;src:url("assets/fonts/montserrat-latin-400-italic.woff2") format("woff2")}
 @font-face{font-family:"Montserrat";font-style:normal;font-weight:500;font-display:swap;src:url("assets/fonts/montserrat-latin-500-normal.woff2") format("woff2")}
-@font-face{font-family:"Montserrat";font-style:italic;font-weight:500;font-display:swap;src:url("assets/fonts/montserrat-latin-500-italic.woff2") format("woff2")}
 @font-face{font-family:"Montserrat";font-style:normal;font-weight:700;font-display:swap;src:url("assets/fonts/montserrat-latin-700-normal.woff2") format("woff2")}
-@font-face{font-family:"Montserrat";font-style:italic;font-weight:700;font-display:swap;src:url("assets/fonts/montserrat-latin-700-italic.woff2") format("woff2")}
+@font-face{font-family:"Montserrat";font-style:italic;font-weight:400;font-display:swap;src:url("assets/fonts/montserrat-latin-400-italic.woff2") format("woff2")}
 @font-face{font-family:"Parisienne";font-style:normal;font-weight:400;font-display:swap;src:url("assets/fonts/parisienne-latin-400-normal.woff2") format("woff2")}
 @font-face{font-family:"Pinyon Script";font-style:normal;font-weight:400;font-display:swap;src:url("assets/fonts/pinyon-script-latin-400-normal.woff2") format("woff2")}
+@font-face{font-family:"Playfair Display";font-style:normal;font-weight:400;font-display:swap;src:url("assets/fonts/playfair-display-latin-400-normal.woff2") format("woff2")}
+@font-face{font-family:"Playfair Display";font-style:normal;font-weight:500;font-display:swap;src:url("assets/fonts/playfair-display-latin-500-normal.woff2") format("woff2")}
+@font-face{font-family:"Playfair Display";font-style:italic;font-weight:500;font-display:swap;src:url("assets/fonts/playfair-display-latin-500-italic.woff2") format("woff2")}
+@font-face{font-family:"Playfair Display";font-style:italic;font-weight:600;font-display:swap;src:url("assets/fonts/playfair-display-latin-600-italic.woff2") format("woff2")}
