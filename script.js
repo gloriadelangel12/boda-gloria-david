@@ -61,23 +61,6 @@ function updateCountdown() {
 }
 updateCountdown(); setInterval(updateCountdown, 1000);
 
-/* ===== Calendario (.ics) ===== 
-const icsDate = iso => new Date(iso).toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, "");
-$("calendarBtn").addEventListener("click", () => {
-  const ics = ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Invitacion Boda//ES","CALSCALE:GREGORIAN","BEGIN:VEVENT",
-    "UID:boda-gloria-david-20270731@invitacion","DTSTAMP:" + icsDate(new Date().toISOString()),
-    "DTSTART:" + icsDate(CONFIG.weddingDate),"DTEND:" + icsDate(CONFIG.eventEnd),
-    "SUMMARY:" + CONFIG.eventTitle,"LOCATION:" + CONFIG.eventPlace.replace(/,/g, "\\,"),
-    "DESCRIPTION:Ceremonia religiosa 6:00 PM · Recepción 8:00 PM · Salón de Eventos EMCEE",
-    "BEGIN:VALARM","TRIGGER:-P1D","ACTION:DISPLAY","DESCRIPTION:Mañana es la boda de Gloria y David","END:VALARM",
-    "END:VEVENT","END:VCALENDAR"].join("\r\n");
-  const a = document.createElement("a");
-  a.href = URL.createObjectURL(new Blob([ics], { type: "text/calendar;charset=utf-8" }));
-  a.download = "boda-gloria-david.ics"; document.body.appendChild(a); a.click(); a.remove();
-  showToast("Evento listo para añadir a tu calendario");
-});*/
-
-
 /* ===== Calendario (.ics) ===== */
 
 $("calendarBtn").addEventListener("click", () => {

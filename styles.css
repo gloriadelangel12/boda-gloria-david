@@ -171,7 +171,7 @@ img.it[data-crop]{height:calc(var(--h)*100%/var(--H));object-fit:cover;object-po
 .ev-title.r{font-size:calc(40*var(--u)*var(--k,1))}
 
 /* I/J */
-.prog{font-family:var(--calli);color:#6b0a15;font-weight:500;line-height:1;transform-origin:50% 50%;top:calc((var(--y) + 22)*100%/var(--H))}
+.prog{font-family:var(--calli);color:hsl(0, 0%, 100%);font-weight:500;line-height:1;transform-origin:50% 50%;top:calc((var(--y) + 22)*100%/var(--H))}
 .fin{font-family:var(--serif);font-weight:600;color:#7b1220;line-height:1.2;letter-spacing:.02em}
 .esp{font-family:var(--fonts);color:#7b1220}
 
@@ -249,9 +249,7 @@ body{width:100%;min-width:0;overflow-x:clip}
 
 .intro-mono{animation:monoIn 1s cubic-bezier(.2,.7,.2,1) .15s both}
 .intro-names{position:relative;animation:introRise 1.1s cubic-bezier(.2,.7,.2,1) .5s both}
-.intro-names::after{content:"";position:absolute;left:22%;right:22%;bottom:-7px;height:1px;
-  background:linear-gradient(90deg,transparent,#7b2c1c,transparent);transform-origin:center;
-  animation:drawLine 1.2s ease 1.5s both}
+
 .intro-date{animation:introRise 1s cubic-bezier(.2,.7,.2,1) 1s both}
 .intro-date i{transform-origin:center;animation:growLine .8s ease 1.6s both}
 .intro-quote{animation:introRise 1.1s cubic-bezier(.2,.7,.2,1) 1.35s both}
